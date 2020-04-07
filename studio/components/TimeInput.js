@@ -3,8 +3,6 @@ import {withDocument} from 'part:@sanity/form-builder'
 import FormField from 'part:@sanity/components/formfields/default'
 import PatchEvent, {set, unset} from 'part:@sanity/form-builder/patch-event'
 
-import '../node_modules/react-timepicker/timepicker.css?raw'
-
 const incomingValues = value => {
   if (!value) {
     return {
