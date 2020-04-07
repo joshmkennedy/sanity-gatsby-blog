@@ -40,8 +40,8 @@ const incomingValues = value => {
     minutes: Number(minutes)
   }
 }
-const format = timeString => {
-  return outgoingValue(timeString)
+const format = timeStrings => {
+  return outgoingValue(timeStrings)
 }
 
 export default {
